@@ -141,6 +141,20 @@ body main > div .card {
   margin: 10px 1%;
 }
 
+@media (max-width: 375px) {
+  body main > div .card {
+    width: 90%;
+    padding: 20px 5%;
+  }
+}
+
+@media (max-width: 1000px) {
+  body main > div .card {
+    width: 40%;
+    padding: 20px 4%;
+  }
+}
+
 body main > div .card .card-header {
   display: -webkit-box;
   display: -ms-flexbox;
