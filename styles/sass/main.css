@@ -1,0 +1,250 @@
+body {
+  background-color: white;
+  color: #1e202a;
+}
+
+body span {
+  color: #63687e;
+}
+
+body header .switch-btn label::before {
+  background-color: #252a41;
+}
+
+body main .card {
+  background-color: #f0f2fa;
+}
+
+body main .card:hover {
+  background-color: #aeb3cb;
+}
+
+.dark {
+  background-color: #1e202a;
+  color: white;
+}
+
+.dark span {
+  color: #8b97c6;
+}
+
+.dark header .switch-btn label::before {
+  background-color: #252a41;
+}
+
+.dark main .card {
+  background-color: #252a41;
+}
+
+.dark main .card:hover {
+  background-color: #63687e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  padding: 20px 10%;
+}
+
+body .section-title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+body span {
+  font-weight: 700;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header span {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+body header .switch-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .switch-btn input {
+  display: none;
+}
+
+body header .switch-btn label {
+  margin: auto 20px;
+  width: 30px;
+  height: 15px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  display: block;
+  background-image: linear-gradient(45deg, #378fe6, #3eda82);
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+body header .switch-btn label::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #f0f2fa;
+  position: absolute;
+  top: 2.5px;
+  right: 2px;
+}
+
+body header .switch-btn label.checked::before {
+  left: 2px;
+}
+
+body main {
+  margin-top: 30px;
+}
+
+body main > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main > div .section-title {
+  margin: 30px 0;
+}
+
+body main > div .card {
+  width: 21%;
+  border-radius: 5px;
+  padding: 20px 1%;
+  text-align: center;
+  position: relative;
+  margin: 10px 1%;
+}
+
+body main > div .card .card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+body main > div .card .card-header img {
+  margin-right: 10px;
+}
+
+body main > div .card .card-main {
+  padding: 30px 0;
+}
+
+body main > div .card .card-main .follow-num {
+  font-size: 72px;
+}
+
+body main > div .card .card-main span {
+  letter-spacing: 10px;
+  font-weight: 400;
+}
+
+body main > div .card .card-footer > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+body main > div .card .card-footer > div img {
+  margin-right: 8px;
+}
+
+body main > div .card .card-footer .increase {
+  color: #1db489;
+}
+
+body main > div .card .card-footer .decrease {
+  color: #dc414c;
+}
+
+body main > div .card:hover {
+  cursor: pointer;
+}
+
+body main > div .card::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  border-radius: 10px 10px 0 0;
+  top: 0;
+  left: 0;
+}
+
+body main > div .card.facebook::after {
+  background-color: #198ff5;
+}
+
+body main > div .card.twitter::after {
+  background-color: #1ca0f2;
+}
+
+body main > div .card.youtube::after {
+  background-color: #c4032a;
+}
+
+body main > div .card.instagram::after {
+  background-image: linear-gradient(45deg, #fdc468, #df4996);
+}
+
+body main .overview .card-header {
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+body main .overview .card-footer {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main .overview .card-footer .statics-num {
+  font-size: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=main.css.map */
